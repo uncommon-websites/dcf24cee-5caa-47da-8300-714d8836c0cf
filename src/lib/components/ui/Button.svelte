@@ -33,19 +33,19 @@
 
 	// Styles
 	const variants: Record<Variant, string> = {
-		primary: "",
-		secondary: "",
-		ghost: ""
+		primary: "bg-primary text-primary-foreground hover:bg-primary/90",
+		secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
+		ghost: "hover:bg-accent hover:text-accent-foreground"
 	};
 
 	const sizes: Record<Size, string> = $derived({
-		sm: iconOnly ? "p-1.5 text-sm" : "px-4 py-1.5 rounded text-sm",
-		md: iconOnly ? "p-2 text-base" : "px-4.5 py-2 rounded text-base",
-		lg: iconOnly ? "p-2.5 text-lg" : "px-5 py-2 rounded-lg text-lg"
+		sm: iconOnly ? "p-1.5 text-caption" : "px-4 py-1.5 rounded text-caption",
+		md: iconOnly ? "p-2 text-body" : "px-4.5 py-2 rounded text-body",
+		lg: iconOnly ? "p-2.5 text-headline" : "px-5 py-2 rounded-lg text-headline"
 	});
 
 	const baseStyles =
-		"inline-flex items-center ring-1 ring-white/15 ring-inset justify-center !font-semibold transition ease-out duration-300 focus:outline-none focus:ring-0 active:brightness-[.9] active:scale-[.98] ring-0 gap-3 [touch-action:manipulation]";
+		"inline-flex items-center ring-1 ring-white/15 ring-inset justify-center !font-semibold transition ease-out duration-300 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 active:brightness-[.9] active:scale-[.98] gap-3 [touch-action:manipulation] rounded-md";
 </script>
 
 <Button.Root

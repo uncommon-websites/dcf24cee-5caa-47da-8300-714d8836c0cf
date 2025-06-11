@@ -25,7 +25,7 @@
 	<h2>
 		<AnimateText text={title} {oncomplete} />
 	</h2>
-	<p class="text-emphasis-dim">
+	<p class="text-muted-foreground">
 		<AnimateText text={subtitle} />
 	</p>
 </div>

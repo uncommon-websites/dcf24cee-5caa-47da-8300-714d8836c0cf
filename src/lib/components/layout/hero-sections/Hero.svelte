@@ -75,7 +75,7 @@
 			<h1 class="text-display font-[450] w-full" data-enter>
 				<span class="block"><AnimateText text={title} /></span>
 				{#if !centered}
-					<span class="text-emphasis-dim block font-[450]"><AnimateText text={subtitle} /></span>
+					<span class="text-muted-foreground block font-[450]"><AnimateText text={subtitle} /></span>
 				{/if}
 			</h1>
 

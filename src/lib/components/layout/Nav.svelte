@@ -43,7 +43,7 @@
 		<a href="/" class="flex items-center gap-3.5">
 			<Logo class="z-50 size-7" />
 
-			<span class="font-medium">{CONFIG.companyName}</span>
+			<span class="text-headline font-medium">{CONFIG.companyName}</span>
 		</a>
 
 		<!-- items + cta -->

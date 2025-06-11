@@ -32,7 +32,7 @@
 				.filter((item) => item.showInFooter !== false)
 				.sort((a, b) => (b?.children?.length || 0) - (a?.children?.length || 0)) as section}
 				<div class="text-muted-foreground inline-block transition-all duration-300 ease-out">
-					<h3 class="text-caption text-xs" class:hidden={!section?.children}>
+					<h3 class="text-caption" class:hidden={!section?.children}>
 						{section.label}
 					</h3>
 					{#if section.children}
@@ -59,7 +59,7 @@
 			class="col-span-full border-t py-6"
 		style="border-color: var(--color-border); color: var(--color-muted-foreground);"
 		>
-			<div class="grid grid-cols-2 items-start justify-between gap-4 gap-x-32 text-sm">
+			<div class="grid grid-cols-2 items-start justify-between gap-4 gap-x-32 text-caption">
 				<div>
 					&copy; {CONFIG.companyName}
 					{new Date().getFullYear()}
