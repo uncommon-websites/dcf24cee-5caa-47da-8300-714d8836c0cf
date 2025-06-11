@@ -7,16 +7,46 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={true}
+  title="Train your team. Standardize every task."
+  subtitle="Turn your existing docs, photos, and videos into clear, step-by-step procedures your frontline teams can follow—on the floor, in real time."
+  customers={[
+    {
+      name: "Jerrod Simpson",
+      position: "Training Coordinator, Pall Corporation",
+      imageSrc: "/generated/image-a-cheerful-woman-industrial-manager-wear.webp"
+    },
+    {
+      name: "Rachel",
+      position: "Learning & Development, Siemens",
+      imageSrc: "/generated/image-a-young-woman-food-and-beverage-supervis.webp"
+    },
+    {
+      name: "Darryl Brooks",
+      position: "Senior Field Operator, Texas Oil & Gas",
+      imageSrc: "/generated/image-a-middle-aged-man-in-an-oil-and-gas-unif.webp"
+    },
+    {
+      name: "Wei Zhang",
+      position: "Lead Engineer, Midwest Automotive",
+      imageSrc: "/generated/image-an-asian-senior-male-engineer-in-an-auto.webp"
+    },
+    {
+      name: "Latoya Green",
+      position: "QA Supervisor, Modern Manufacturing",
+      imageSrc: "/generated/image-a-black-female-quality-assurance-supervi.webp"
+    },
+  ]}
+  callsToAction={[
+    { href: '/demo', label: 'Request a demo' },
+    { href: '/contact', label: 'Contact sales' }
+  ]}
 />
-<LogoScroller label="" generating />
+<LogoScroller label="" />
 
 <Summary
 	generating
