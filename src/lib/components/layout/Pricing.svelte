@@ -35,9 +35,9 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "Simple plans that scale with your site",
+		subtitle = "Transparent pricing for teams of every size",
+		tierNames = ["Starter", "Team", "Enterprise"],
 		features = [
 			{
 				name: "Projects",
@@ -113,61 +113,63 @@ Please update features according to the company's product offering. Do not remov
 			}
 		],
 		tiers = [
-			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
-				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
-				}
-			},
-			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
-				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
-				},
-				highlight: true
-			},
-			{
-				name: "Enterprise",
-				monthlyPrice: null,
-				yearlyPrice: null,
-				description: "For large organizations with specific needs",
-				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
-				],
-				cta: {
-					label: "Contact sales",
-					href: "/contact"
-				}
+		{
+			name: "Starter",
+			monthlyPrice: 99,
+			yearlyPrice: 950, // $950/year (save $238)
+			description: "Perfect for pilot teams looking to digitize their first procedures.",
+			features: [
+				"Access to video-to-procedure AI",
+				"Mobile use for up to 5 operators",
+				"Create and edit up to 20 procedures",
+				"Basic usage analytics & compliance tracking",
+				"Email support"
+			],
+			cta: {
+				label: "Start pilot",
+				href: "/signup?plan=starter"
 			}
-		]
+		},
+		{
+			name: "Team",
+			monthlyPrice: 499,
+			yearlyPrice: 4990, // $4990/year (save $998)
+			description: "Designed for growing teams standardizing work across multiple departments or sites.",
+			features: [
+				"Unlimited procedures and document attachments",
+				"Support for multiple teams and facilities",
+				"Advanced analytics and data exports",
+				"AR content pinning and up to 3 site maps",
+				"Role-based access control with audit history",
+				"Email and chat support"
+			],
+			cta: {
+				label: "Get started",
+				href: "/signup?plan=team"
+			},
+			highlight: true
+		},
+		{
+			name: "Enterprise",
+			monthlyPrice: null,
+			yearlyPrice: null,
+			description: "For large facilities with advanced security, compliance, or integration needs—partner with us for a tailored deployment.",
+			features: [
+				"Everything in Team tier",
+				"Unlimited seat and site support",
+				"SSO, MFA, and operator badge login",
+				"Location-based analytics and site-level reporting",
+				"Custom API integrations",
+				"Dedicated customer success manager",
+				"Enterprise SLA, governance, audit, and translation support"
+			],
+			cta: {
+				label: "Contact sales",
+				href: "/contact"
+			}
+		}
+	]
+
 	}: {
 		title?: string;
 		subtitle?: string;

@@ -26,18 +26,17 @@
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+  title="From static docs to smart help"
+  subtitle="Squint turns your existing manuals and videos into on-the-floor guidance that improves safety, speed, and consistency"
+  imageSrc="/mockups/airport-screen-1749653739297.png"
 />
 
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"In factories and plants, vital know-how is often buried in scattered documents or locked away in the minds of a few experts. Training new operators was slow, procedures were hard to follow, and when experienced workers left, critical knowledge walked out the door.",
+		"We founded Squint to solve this—combining AI and augmented reality to turn your existing videos, spreadsheets, and PDFs into immersive, step-by-step procedures. By making that knowledge instantly accessible in the real world, any operator can get help, follow standards, and do the job right—no matter the task or their experience level.",
+		"Today, Squint helps industrial teams in automotive, food and beverage, energy, and more. We’ve been named one of Fast Company’s World’s Most Innovative Companies, but our real motivation is simple: empowering every frontline worker, building a culture around connection and safety, and making it easy for operators to succeed on day one."
 	]}
 />
 
@@ -46,32 +45,47 @@
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		}
-	]}
+  stakeholderType="team"
+  title="Meet the team."
+  subtitle="People making operational excellence possible."
+  stakeholders={[
+    {
+      name: "Devin Bhushan",
+      position: "CEO & Founder",
+      bio: "Devin leads Squint’s vision, bringing a background in software engineering and a passion for empowering frontline teams with intuitive tools.",
+      image: "/generated/image-a-professional-headshot-of-a-south-asian.webp"
+    },
+    {
+      name: "Dylan Conway",
+      position: "Founding Customer Lead",
+      bio: "Dylan works closely with our earliest industrial partners, ensuring Squint solves real operator challenges from day one.",
+      image: "/generated/image-a-professional-headshot-of-a-white-male-.webp"
+    },
+    {
+      name: "Jim Zhu",
+      position: "Founding Architect",
+      bio: "Jim shapes the technical foundations of Squint, focusing on robust architecture and scalable performance.",
+      image: "/generated/image-a-professional-headshot-of-a-white-male-.webp"
+    },
+    {
+      name: "Ben Weaver",
+      position: "Director of Engineering",
+      bio: "Ben leads engineering, ensuring Squint’s platform is secure, reliable, and delivers for every operator in the field.",
+      image: "/generated/image-a-professional-headshot-of-a-white-male-.webp"
+    },
+    {
+      name: "Hareem Mannan",
+      position: "Head of Product and Design",
+      bio: "Hareem blends enterprise needs with user-centered design to create seamless, effective AR procedures for customers.",
+      image: "/generated/image-a-professional-headshot-of-a-white-male-.webp"
+    },
+    {
+      name: "James Jennings",
+      position: "Head of Sales",
+      bio: "James partners with manufacturers to bring Squint’s solutions onto factory floors everywhere.",
+      image: "/generated/image-a-professional-headshot-of-a-black-male-.webp"
+    }
+  ]}
 />
 
 <StakeholderGrid
@@ -96,7 +110,16 @@
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+  title="Your operations can’t wait"
+  subtitle="Standardize work. Empower every frontline team. Make excellence repeatable—right now."
+  description="Tribal knowledge walks out the door every day. Inconsistent procedures slow your floor and put compliance at risk. Squint turns all your scattered documentation—videos, PDFs, spreadsheets—into consistent, easy-to-follow guidance that your teams can use immediately, directly on the job. No extra hardware, no wasted time.
+
+The result? Faster training, fewer errors, and teams that work with confidence. Whether you're leading one facility or managing shifts globally, Squint makes it easy to scale best practices with precision.
+
+Book a conversation or see it in action. Your floor—and your teams—deserve better than guesswork."
+  callsToAction={[
+    { href: '/contact', label: 'Book a demo', variant: 'primary' },
+    { href: '/contact', label: 'Talk to our team', variant: 'secondary' }
+  ]}
+  imageSrc="/generated/image-a-diverse-industrial-team-walking-togeth.webp"
 />

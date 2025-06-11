@@ -66,16 +66,16 @@
 <div class="bg-background" {...rest}>
 	<header
 		class={[
-			"section-px container mx-auto grid items-end gap-16 gap-y-9 py-12 pt-24 text-balance",
-			centered ? "place-items-center text-center" : " xl:grid-cols-[1fr_auto]"
+			"container mx-auto grid items-end gap-16 gap-y-9 section-py text-balance",
+			centered ? "section-px place-items-center text-center" : "section-px xl:grid-cols-[1fr_auto]"
 		]}
 		data-enter-container
 	>
-		<div class="grid gap-6" class:max-w-prose={centered}>
-			<h1 class="text-display w-full" data-enter>
+		<div class="grid gap-6 mx-auto max-w-prose" class:max-w-prose={centered}>
+			<h1 class="text-display font-[450] w-full" data-enter>
 				<span class="block"><AnimateText text={title} /></span>
 				{#if !centered}
-					<span class="text-emphasis-dim block"><AnimateText text={subtitle} /></span>
+					<span class="text-emphasis-dim block font-[450]"><AnimateText text={subtitle} /></span>
 				{/if}
 			</h1>
 
@@ -83,8 +83,7 @@
 				<p
 					data-enter
 					class={[
-						"text-muted-foreground text-headline mx-auto block max-w-[45ch] transition duration-500 ease-out"
-						// isTitleComplete ? "opacity-100" : "translate-y-2 opacity-0 blur-sm"
+						"text-muted-foreground text-title1 font-[450] mx-auto block max-w-[45ch] transition duration-500 ease-out"
 					]}
 				>
 					{subtitle}
@@ -93,7 +92,7 @@
 		</div>
 
 		{#if callsToAction.length > 0}
-			<div class="flex gap-4" data-enter>
+			<div class="flex gap-3 md:gap-4 mt-8" data-enter>
 				{#each callsToAction as cta, index}
 					<Button
 						href={cta.href}
@@ -117,7 +116,7 @@
 			<img
 				src={imageSrc}
 				alt="Customer"
-				class="size-full object-cover"
+				class="size-full object-cover rounded-xl shadow-lg"
 				onerror={handleImageError}
 			/>
 		</div>

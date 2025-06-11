@@ -49,107 +49,113 @@
 <LogoScroller label="" />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="AI-powered procedures for the industrial front line"
+	text="Squint turns your existing videos, spreadsheets, and PDFs into step-by-step augmented reality procedures your operators can actually follow. Standardize work, deliver on-the-job help, and get real operational insights—all in one platform."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Jerrod Griffin",
+			position: "Training Coordinator, Automotive Plant",
+			company: undefined,
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"With Squint, we've cut training time by 40% and had new hires running independently in under a week.",
+			image: "/generated/image-a-male-plant-manager-in-an-automotive-fa.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Rachel Nuñez",
+			position: "Learning & Safety, Food Production Facility",
+			company: undefined,
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"We went from monthly safety issues to zero reported incidents in two sites. Squint ensures nothing gets skipped.",
+			image: "/generated/image-a-female-line-supervisor-on-a-food-produ.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Kai Morrison",
+			position: "Field Ops Supervisor, Offshore Oil Rig",
+			company: undefined,
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Using Squint cut procedural rework and contractor retraining costs by over $85,000 last quarter alone.",
+			image: "/generated/image-a-male-oil-rig-supervisor-standing-outsi.webp"
 		}
 	]}
+
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Features built for frontline excellence"
+	subtitle="AI-powered instructions, real-time help, and unmatched control—designed for operations that can’t skip a beat."
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "AI-powered step-by-step procedures",
+			description: "Squint transforms your videos, PDFs, and manuals into clear, interactive guidance every operator can follow." 
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Instant video-to-procedure conversion",
+			description: "Turn any how-to video into a repeatable procedure in seconds. Capture knowledge the moment it’s shared." 
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Pin steps to the real world",
+			description: "Attach vital instructions, notes, or content to where the work happens—no QR codes or special hardware needed." 
+		},
+		{
+			title: "Operator badge login",
+			description: "Frontline teams access procedures securely and instantly with a simple badge scan—no passwords to remember." 
+		},
+		{
+			title: "Real-time floor analytics",
+			description: "Track operator activity, compliance, and training gaps as they happen. Take quick action where it matters."
+		},
+		{
+			title: "Instant answers for every shift",
+			description: "Operators get quick, accurate guidance on the job—no need to dig through docs or wait for a supervisor."
 		}
 	]}
 />
 
 <UseCases
-	generating
-	title="Use Cases"
-	subtitle="Real-world applications for your business needs"
-	useCases={[
-		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-			link: {
-				href: "/use-cases/workflows",
-				label: "Learn more"
-			}
-		},
-		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
-			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
-			}
-		},
-		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
-			}
-		}
-	]}
+  title="Use Cases"
+  subtitle="Real-world applications for your business needs"
+  useCases={[
+    {
+      title: "Accelerated onboarding for new operators",
+      description: "Train new frontline workers in days, not weeks. Squint transforms your videos and manuals into interactive procedures, giving every new hire real-world, hands-on guidance from day one.",
+      image: "/generated/image-a-diverse-group-of-frontline-workers-att.webp",
+      link: {
+        href: "/use-cases/operator-onboarding",
+        label: "Learn more"
+      }
+    },
+    {
+      title: "Real-time task support on the floor",
+      description: "Operators get instant help by scanning equipment or workstations with their mobile device— access step-by-step guides, videos, and AI-powered answers right in the flow of work.",
+      image: "/generated/image-an-industrial-technician-is-working-dili.webp",
+      link: {
+        href: "/use-cases/real-time-support",
+        label: "Learn more"
+      }
+    },
+    {
+      title: "Standardized maintenance and compliance tracking",
+      description: "Digitally track inspections, repair steps, and required checks to ensure every process is completed safely and consistently— with full reports and insights for managers.",
+      image: "/generated/image-a-maintenance-worker-is-actively-engaged.webp",
+      link: {
+        href: "/use-cases/maintenance-compliance",
+        label: "Learn more"
+      }
+    }
+  ]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="Train less. Get more done."
+  subtitle="Put digital guidance in every operator's hands"
+  description="Squint turns your documentation into instant, step-by-step procedures any frontline worker can use—right on the floor. Cut downtime, standardize work, and bring expertise to every shift."
+  imageSrc="/generated/image-a-smiling-industrial-frontline-worker-st.webp"
+  callsToAction={[
+    { href: '/demo', label: 'Request a demo', variant: 'primary' },
+    { href: '/contact', label: 'Talk to sales', variant: 'secondary' }
+  ]}
+/>

@@ -15,35 +15,41 @@
 <Pricing />
 
 <Testimonials
-	testimonials={[
-		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"This solution transformed our workflow and increased productivity by 35% in just two months.",
-			image:
-				"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"The implementation was seamless and the support team was exceptional throughout the process.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
-			quote:
-				"We've tried multiple solutions, but this is the only one that perfectly addressed all our requirements.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&estimonial-3.jpg"
-		}
-	]}
+  testimonials={[
+    {
+      name: "Marco Rivera",
+      position: "Manufacturing Process Lead",
+      company: "Orion Components",
+      quote:
+        "We saw a return on investment within the first quarter. Squint made it easy for our line operators to adapt, and our error rates dropped by more than 40%.",
+      image: "/generated/image-a-professional-headshot-of-a-latino-man-.webp"
+    },
+    {
+      name: "Aisha Mbaye",
+      position: "Assembly Operations Manager",
+      company: "Velocity AutoWorks",
+      quote:
+        "I can train new hires in days instead of weeks. Squint eliminated confusion and keeps our teams on the same page—no matter the shift.",
+      image: "/generated/image-a-professional-headshot-of-a-black-woman.webp"
+    },
+    {
+      name: "Wei Zhou",
+      position: "Field Operations Director",
+      company: "Helio Energy Solutions",
+      quote:
+        "Deploying Squint was seamless. The intuitive interface won over field operators instantly, and our onboarding costs fell by a third.",
+      image: "/generated/image-a-professional-headshot-of-an-east-asian.webp"
+    }
+  ]}
 />
 
-<CallToAction />
+<CallToAction
+  title="Train faster. Work smarter. Fix it on the first try."
+  subtitle="Squint turns your existing training material into step-by-step spatial procedures any operator can follow—right from their phone or tablet."
+  description="Ready to boost productivity and compliance? See how industry leaders use Squint to cut training time and get results that stick."
+  imageSrc="/generated/image-a-happy-industrial-worker-in-a-manufactu.webp"
+  callsToAction={[
+    { href: '/demo', label: 'Request a demo', variant: 'primary' },
+    { href: '/contact', label: 'Talk to sales', variant: 'secondary' }
+  ]}
+/>

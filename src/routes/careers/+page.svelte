@@ -121,34 +121,34 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Michael Chen",
+    position: "Senior Developer",
+    company: "Engineering Team",
+    quote:
+      "I love the team spirit here—everyone actually supports each other. I've taken on new challenges and have always felt encouraged to learn and grow. The culture makes it easy to do your best work.",
+    image:
+      "/generated/image-a-young-east-asian-male-software-enginee.webp"
+  },
+  {
+    name: "Priya Sharma",
+    position: "Product Designer",
+    company: "Design Team",
+    quote:
+      "At Squint, my ideas are welcomed and I get freedom to own projects. I always know my voice matters and there are plenty of opportunities to keep sharpening my skills.",
+    image:
+      "/generated/image-a-south-asian-woman-product-designer-in-.webp"
+  },
+  {
+    name: "Marcus Johnson",
+    position: "Marketing Lead",
+    company: "Marketing Team",
+    quote:
+      "Since joining, I’ve grown a ton, both as a marketer and as a leader. The leadership is genuinely invested in our success and the positive energy here makes it a great place to build your career.",
+    image:
+      "/generated/image-a-black-male-marketing-lead-in-an-open-o.webp"
+  }
+];
 
 	const processSteps = [
 		{
@@ -191,9 +191,9 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
-	imageSrc="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+	title="Grow where your work matters"
+	subtitle="Join a remote-first team building human-focused tools for the world’s frontline workers"
+	imageSrc="/generated/image-a-sincere-and-happy-team-collaborating-i.webp"
 />
 
 <!-- Why Join Us Section -->
