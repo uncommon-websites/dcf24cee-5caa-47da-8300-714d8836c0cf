@@ -57,7 +57,6 @@
 <LogoScroller label="" />
 
 <Summary
-	title="AI-powered procedures for the industrial front line"
 	text="Squint turns your existing videos, spreadsheets, and PDFs into step-by-step augmented reality procedures your operators can actually follow. Standardize work, deliver on-the-job help, and get real operational insights—all in one platform."
 />
 
