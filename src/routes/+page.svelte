@@ -8,6 +8,14 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
+
+	// Icons
+	import IconBrain from "~icons/lucide/brain";
+	import IconVideo from "~icons/lucide/video";
+	import IconMapPin from "~icons/lucide/map-pin";
+	import IconBadge from "~icons/lucide/badge";
+	import IconBarChart from "~icons/lucide/bar-chart";
+	import IconMessageCircle from "~icons/lucide/message-circle";
 </script>
 
 <CustomerCardHero
@@ -89,27 +97,33 @@
 	features={[
 		{
 			title: "AI-powered step-by-step procedures",
-			description: "Squint transforms your videos, PDFs, and manuals into clear, interactive guidance every operator can follow." 
+			description: "Squint transforms your videos, PDFs, and manuals into clear, interactive guidance every operator can follow.",
+			icon: IconBrain
 		},
 		{
 			title: "Instant video-to-procedure conversion",
 			description: "Turn any how-to video into a repeatable procedure in seconds. Capture knowledge the moment it’s shared." 
+			icon: IconVideo
 		},
 		{
 			title: "Pin steps to the real world",
-			description: "Attach vital instructions, notes, or content to where the work happens—no QR codes or special hardware needed." 
+			description: "Attach vital instructions, notes, or content to where the work happens—no QR codes or special hardware needed.",
+			icon: IconMapPin
 		},
 		{
 			title: "Operator badge login",
-			description: "Frontline teams access procedures securely and instantly with a simple badge scan—no passwords to remember." 
+			description: "Frontline teams access procedures securely and instantly with a simple badge scan—no passwords to remember.",
+			icon: IconBadge
 		},
 		{
 			title: "Real-time floor analytics",
-			description: "Track operator activity, compliance, and training gaps as they happen. Take quick action where it matters."
+			description: "Track operator activity, compliance, and training gaps as they happen. Take quick action where it matters.",
+			icon: IconBarChart
 		},
 		{
 			title: "Instant answers for every shift",
-			description: "Operators get quick, accurate guidance on the job—no need to dig through docs or wait for a supervisor."
+			description: "Operators get quick, accurate guidance on the job—no need to dig through docs or wait for a supervisor.",
+			icon: IconMessageCircle
 		}
 	]}
 />
