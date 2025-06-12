@@ -103,7 +103,7 @@
 		{
 			title: "Instant video-to-procedure conversion",
 			description:
-\t\t\tdescription: \"Turn any how-to video into a repeatable procedure in seconds. Capture knowledge the moment it's shared.\",
+				"Turn any how-to video into a repeatable procedure in seconds. Capture knowledge the moment it's shared.",
 			icon: IconVideo
 		},
 		{
