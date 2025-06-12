@@ -12,7 +12,7 @@
 
 <CustomerCardHero
   centered={true}
-  title="Transform docs into spatial guidance. Empower every operator."
+  title="Empower every operator."
   subtitle="Turn your existing docs, photos, and videos into clear, step-by-step procedures your frontline teams can follow—on the floor, in real time."
   customers={[
     {
