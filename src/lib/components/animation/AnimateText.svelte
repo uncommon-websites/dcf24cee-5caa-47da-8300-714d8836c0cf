@@ -33,7 +33,7 @@
 	// });
 </script>
 
-<span class:show bind:this={element}>
+<span class:show bind:this={element} style="letter-spacing: -0.05em;">
 	{#each (text || "").split(" ") as word, i}
 		<span
 			class="animated-word inline-block origin-left"
